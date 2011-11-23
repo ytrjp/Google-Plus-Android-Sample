@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Google+ for GTUG Greece"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_launch_oauth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch OAuth" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View my profile" />
+
+    <Button
+        android:id="@+id/btn_profiles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search profiles" />
+
+    <Button
+        android:id="@+id/btn_clear_credentials"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Credentials" />
+
+    <TextView
+        android:id="@+id/response_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
