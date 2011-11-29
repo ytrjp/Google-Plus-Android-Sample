@@ -1,25 +1,36 @@
+------
+Title:
+------
+
+Google-Plus-Android-Sample
 
 --------
 Summary:
 --------
 
-This simple project represents how the Google+ API can be used on Android
+This simple Android project presents how the Google+ API can be integrated to Android applications.
+
+-----------------
+Operating System:
+-----------------
+
+Google Android 2.1+
 
 --------
 Details:
 --------
 
-The application provides 4 interaction buttons with the user. 
-- Button 1: Authentication. 
+The application provides a set of options to the user.
+- Option 1: User Authentication. 
 -- OAuth 2.0 dance is used with the Google servers to authenticate the user. A
-   webview is shown to the user in order to fill the credentials (uname/passwd).
-- Button 2: Profile.
+   webview is shown to the user in order to fill the required credentials (username/password).
+- Option 2: Profile Access.
 -- The user gets information about his profile.
-- Button 3: Profile Search
--- The user can search "by name" through Google+ profiles and see their Activity.
-- Button 4: Clear Google+ Credentials
+- Option 3: Profile Search.
+-- The user can search Google+ profiles "by name" and see their Activity.
+- Option 4: Clear Google+ Credentials
 -- The application stores the Access-token, Expiration-date and Refresh-token.
-   No uname/passwd is stored anywhere.
+   User credentials and tokens are no longer stored.
    
 -------------
 Installation:
